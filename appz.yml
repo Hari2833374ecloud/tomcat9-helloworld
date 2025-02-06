@@ -4,7 +4,7 @@ app:
   notify: hkrishnan@ecloudcontrol.com
 
 build:
-  version: 0.3b
+  version: 0.3
   env: PROD
   build_file: pom.xml
   output_files: output/*.war
