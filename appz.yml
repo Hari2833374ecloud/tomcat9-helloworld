@@ -11,7 +11,7 @@ build:
   image_template: tomcat9
 
 deploy:
-  context: hari/PROD
+  context: harik/PROD
   replicas: 1
   session_affinity: ClientIP
   port: 
